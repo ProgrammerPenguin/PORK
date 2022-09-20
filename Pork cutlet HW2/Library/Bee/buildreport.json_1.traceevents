@@ -1,0 +1,575 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663664525521138, "dur": 638504, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664525522024, "dur": 12407, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664525534598, "dur": 39454, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664525574069, "dur": 346545, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664525920617, "dur": 229104, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664526149734, "dur": 9907, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664527987581, "dur": 817964, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664527987719, "dur": 13560, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664528001281, "dur": 31577, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664528032859, "dur": 286759, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664528319620, "dur": 471781, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664528791402, "dur": 14142, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664528805895, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663664528092645, "dur": 205307, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663664528093315, "dur": 30313, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663664528287458, "dur": 3123, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663664528290584, "dur": 7362, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663664528291039, "dur": 6421, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663664528300815, "dur": 885, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663664528300292, "dur": 1450, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664528805964, "dur": 108, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663664528345373, "dur":632, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528346009, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663664528346045, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663664528346057, "dur":359, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663664528346429, "dur":282, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528346711, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769106, "dur":327, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769433, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769443, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769444, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769450, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769451, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769455, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769456, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769459, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769460, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769463, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769464, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769468, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769468, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769472, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769473, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769476, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769477, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769480, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769481, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769484, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769485, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769488, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769489, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769492, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769493, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769496, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769497, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769500, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769501, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769504, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769504, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769508, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769509, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769512, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769513, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769516, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769517, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769520, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769521, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769525, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769534, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528769536, "dur":1045, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663664528346635, "dur":81, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528346716, "dur":2470, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528349203, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663664528349204, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528349233, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663664528349236, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528349951, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663664528352508, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528352563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528352566, "dur":83440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528436044, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528436083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528436093, "dur":15811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528451933, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528451964, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528451971, "dur":23022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528475018, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528475046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528475051, "dur":17719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528492803, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528492834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528492839, "dur":37468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528530346, "dur":30371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528560722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528560731, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528561440, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528561470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663664528561476, "dur":112329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663664528673844, "dur":95334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528346751, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528346751, "dur":2487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528349238, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663664528349318, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528354205, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1663664528355224, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2.exe" }}
+,{ "pid":12345, "tid":2, "ts":1663664528355261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528355266, "dur":59083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2.exe" }}
+,{ "pid":12345, "tid":2, "ts":1663664528414379, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528414428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528414435, "dur":36930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528451410, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528451455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528451463, "dur":38380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528489876, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528489916, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528489992, "dur":25144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528515163, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528515213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528515219, "dur":33534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528548790, "dur":22842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528571636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528571643, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528574875, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528574917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663664528574924, "dur":68903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663664528643868, "dur":125339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528347020, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528347020, "dur":2529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528349551, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663664528349610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528414265, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1663664528415256, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528415302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528415309, "dur":23708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528439059, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528439097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528439105, "dur":28157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528467286, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528467319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528467326, "dur":25101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528492463, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528492497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528492506, "dur":21627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528514195, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528514245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528514253, "dur":34773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528549054, "dur":70279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528619339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528619370, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528620377, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528620407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663664528620414, "dur":108657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663664528729091, "dur":40029, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663664528346775, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663664528346776, "dur":2855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663664528349633, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1663664528349691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663664528415847, "dur":13436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1663664528429330, "dur":119244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663664528548595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663664528548629, "dur":6671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663664528555339, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663664528555377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663664528555383, "dur":142019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663664528697419, "dur":71690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528346869, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528346870, "dur":2776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528349646, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528349690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528465355, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528467040, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528467084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528467091, "dur":20539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528487682, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528487716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528487723, "dur":26945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528514731, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528514780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528514786, "dur":34464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528549320, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528550111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528550119, "dur":4123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528554312, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528554360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528554368, "dur":68445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663664528622854, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1663664528622975, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528623365, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1663664528624254, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1663664528624293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528624357, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1663664528626049, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1663664528626162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528626168, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1663664528626954, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1663664528626993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528626999, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1663664528627870, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1663664528627903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528627909, "dur":694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1663664528628633, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1663664528628669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528628674, "dur":790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1663664528629495, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1663664528629531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528629536, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1663664528630258, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1663664528630359, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663664528630368, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1663664528631056, "dur":138067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528346805, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528346805, "dur":2837, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528349644, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1663664528349692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528417110, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1663664528419029, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528419078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528419086, "dur":71553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528490664, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528490689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528490697, "dur":84390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528575125, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528575162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528575168, "dur":27208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528602421, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528602463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663664528602472, "dur":68686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663664528671195, "dur":97945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528346923, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528346924, "dur":2668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528349594, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663664528349656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528415324, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663664528418092, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528418173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528418186, "dur":36797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528455012, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528455043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528455051, "dur":22638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528477747, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528477794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528477805, "dur":37303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528515146, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528515217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528515226, "dur":35293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528550550, "dur":17890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528568446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528568456, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528569514, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528569552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663664528569582, "dur":66163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663664528635790, "dur":133317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528346970, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528346970, "dur":2230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528349203, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1663664528349289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528351114, "dur":1442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1663664528352600, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663664528352715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528352720, "dur":63575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663664528416342, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528416391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528416397, "dur":20527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528436959, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528437004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528437012, "dur":56747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528493814, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528493847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528493855, "dur":58352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528552251, "dur":1076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528553332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528553342, "dur":8364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528561736, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528561762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663664528561768, "dur":95819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663664528657618, "dur":111594, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528347074, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528347075, "dur":2499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528349576, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1663664528349626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528414194, "dur":5060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1663664528419302, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528419345, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528419353, "dur":47476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528466947, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528467009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528467017, "dur":54000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528521046, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528521076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528521102, "dur":38010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528559156, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528559199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663664528559207, "dur":73529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663664528632766, "dur":136345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528347139, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528347139, "dur":2430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528349571, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1663664528349632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528414483, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1663664528415277, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528415320, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528415326, "dur":21910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528437262, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528437291, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528437297, "dur":37578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528474906, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528474938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528474944, "dur":40601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528515569, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528515596, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528515602, "dur":32755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528548388, "dur":20210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528568603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528568611, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528571350, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528571381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528571388, "dur":49798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528621214, "dur":20826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528642046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663664528642056, "dur":878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663664528642961, "dur":126268, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528347210, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528347210, "dur":2279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528349492, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1663664528349559, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528356633, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1663664528358313, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528358349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528358810, "dur":55546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528414389, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528414589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528414595, "dur":87058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528501683, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528501716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528501726, "dur":23014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528524771, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528524802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528524812, "dur":24178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528549021, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528549557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528549565, "dur":4305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528553901, "dur":17723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528571627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528571634, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528574565, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528574593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528574603, "dur":28996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528603626, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528603654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663664528603661, "dur":76228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663664528679910, "dur":89213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663664528347280, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663664528347281, "dur":2314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663664528349596, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1663664528349644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663664528414952, "dur":5809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1663664528420801, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663664528420838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663664528420845, "dur":82061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663664528502939, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663664528502967, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663664528502975, "dur":32143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663664528535142, "dur":142100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663664528677245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663664528677253, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663664528677962, "dur":91182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528347195, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528347195, "dur":2322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528349520, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1663664528349598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528364759, "dur":49683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1663664528414488, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528414520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528414539, "dur":33723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528448290, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528448319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528448327, "dur":44114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528492472, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528492505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528492531, "dur":21245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528513820, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528513850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528513860, "dur":21187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528535080, "dur":53457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528588540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528588547, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528589210, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528589238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528589243, "dur":24672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528613945, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528613972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663664528613980, "dur":155047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663664528769047, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":13, "ts":1663664528769048, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528347352, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528347352, "dur":1983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528349363, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1663664528349515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528355989, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1663664528358176, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1663664528358240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528358490, "dur":61012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1663664528419530, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528419567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528419573, "dur":36947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528456567, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528456610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528456618, "dur":25213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528481866, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528481897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528481907, "dur":48523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528530455, "dur":79353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528609814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528609825, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528610791, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528610819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663664528610826, "dur":40477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663664528651341, "dur":117817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528347404, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528347404, "dur":2080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528349487, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1663664528349584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528361134, "dur":52124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1663664528413298, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528413339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528413349, "dur":60687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528474083, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528474139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528474151, "dur":18546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528492742, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528492770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528492776, "dur":21950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528514794, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528514923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528514929, "dur":18838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528533808, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528533850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528533859, "dur":54071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528587981, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528588021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663664528588031, "dur":118667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663664528706721, "dur":62390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528347509, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528347509, "dur":1909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528349446, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1663664528349561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528360752, "dur":53440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1663664528414227, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528414263, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528414270, "dur":23120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528437412, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528437436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528437441, "dur":76977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528514445, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528514472, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528514477, "dur":74562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528589065, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528589093, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663664528589099, "dur":106603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663664528695722, "dur":73435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528347571, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528347571, "dur":1633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528349206, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1663664528349275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528351216, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":17, "ts":1663664528352410, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528352501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528352627, "dur":71839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528424503, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528424545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528424557, "dur":108786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528533376, "dur":58052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528591434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528591443, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528592930, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528592958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663664528592965, "dur":74856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663664528667850, "dur":101341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528347423, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528347423, "dur":1849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528349273, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1663664528349498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528355238, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":18, "ts":1663664528358787, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528358808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528358901, "dur":55353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528414313, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528414459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528414465, "dur":37805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528452295, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528452325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528452330, "dur":37518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528489882, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528489981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528489989, "dur":29260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528519301, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528519332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528519338, "dur":106385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663664528625755, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":18, "ts":1663664528625787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528625795, "dur":577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":18, "ts":1663664528626397, "dur":6436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":18, "ts":1663664528632887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663664528632896, "dur":574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":18, "ts":1663664528633492, "dur":135742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528347493, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528347493, "dur":1783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528349278, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1663664528349490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528354807, "dur":3910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":19, "ts":1663664528358742, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528358771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528358899, "dur":55082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528414017, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528414069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528414077, "dur":69116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528483222, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528483250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528483258, "dur":34993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528518285, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528518320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528518330, "dur":18031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528536391, "dur":755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528537152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528537183, "dur":798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528538009, "dur":43151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528581165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528581175, "dur":888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528582089, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528582116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663664528582123, "dur":109657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663664528691814, "dur":77294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528347617, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528347617, "dur":1650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528349269, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":20, "ts":1663664528349394, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528354428, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":20, "ts":1663664528358366, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528358431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528358857, "dur":55623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528414509, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528414546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528414551, "dur":25064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528439639, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528439681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528439687, "dur":35099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528474816, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528474864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528474873, "dur":44080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528518995, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528519036, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528519044, "dur":30533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528549604, "dur":532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528550139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528550169, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528553906, "dur":670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528554580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528554587, "dur":4364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528558982, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528559013, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528559021, "dur":37259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528596309, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528596336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663664528596344, "dur":79861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rohgo/OneDrive/ /qwe/ /Pork cutlet HW2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663664528676233, "dur":92897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663664528771260, "dur":1044, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663664528806102, "dur": 487, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663664528805885, "dur": 721, "ph": "X", "name": "Write chrome-trace events", "args": {} },

@@ -16,6 +16,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if(_playerInput.ForwardBack != 0 || _playerInput.LeftRight != 0)
+        {
+            GameManager.Instance.isMoving = true;
+        }
+        else
+        {
+            GameManager.Instance.isMoving = false;
+        }
         move();
     }
     private void move()

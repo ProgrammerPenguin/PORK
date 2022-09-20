@@ -14,8 +14,11 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private int Y;
 
-    private List<Vector3> enemyList = new List<Vector3>();
+    public List<Vector3> enemyList = new List<Vector3>();
     public List<Vector3> EnemyList { get { return enemyList; } }
+    
+    public List<GameObject> enemyColorList = new List<GameObject>();
+    public List<GameObject> EnemyColorList { get { return enemyColorList; } }
 
     
     private void Start()
@@ -32,7 +35,7 @@ public class EnemySpawner : MonoBehaviour
             Vector3 position = new Vector3(randomX, 1, randomY);
             EnemyList.Add(position);
             Quaternion rotate = Quaternion.identity;
-            Instantiate(_enemy, position, rotate);
+            EnemyColorList.Add(Instantiate(_enemy, position, rotate));
         }
     }
 }
